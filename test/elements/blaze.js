@@ -3,6 +3,9 @@ const blazePage = require("../pageobjects/blazemeterpage");
 describe("blaze page elements handle", function () {
     it("get texts of all main links", function () {
         browser.url('https://www.blazemeter.com/');
+        // blazePage.getTextForLi;
+        // blazePage.usecaseelementtext;
+        // console.log(blazePage.specifyChildElement(3).getText());
         console.log('third link is:', blazePage.specifyChildElement(3).getText());
         blazePage.getspecificChildElementText(4);
     })
